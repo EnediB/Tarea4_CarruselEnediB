@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="jquery.tinycarousel.js"></script>
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    
+<body>
+    <section id="slider1">
+    <div class="izquierda">
+        <div class="letras">
+                <h1>OUR TEAM</h1>
+                <h2>PROFESSIONAL PC REPAIR TEAM</h2>
+                <h3>Since our establishment, we have gathered a team of dedicated PC repair professionals.</h3>
+        </div>
+        <div class="contenedorbotones">
+			<a class="buttons prev" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+			<a class="buttons next" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+		</div>
+    </div>
+		<div class="viewport">
+			<ul class="overview">
+				<li><img src="imagenes/foto1.jpg" />
+				<h3>Jhon Tuff</h3>
+				<h4 class="gris">Field Technician</h4>
+				</li>
+				<li><img src="imagenes/foto2.jpg" />
+					<h3>Frank McMillan</h3>
+					<h4 class="gris">General Manager</h4>
+				</li>
+				<li><img src="imagenes/foto3.jpg" />
+					<h3>Jhon Smith</h3>
+					<h4 class="gris">Field Technician</h4>
+                </li>
+				<li><img src="imagenes/foto4.jpg" />
+					<h3>Ben Wilson</h3>
+					<h4 class="gris">Customer Service Manager</h4>
+				</li>
+				<li><img src="imagenes/foto5.jpg" />
+					<h3>Ben Fitzgerald</h3>
+					<h4 class="gris">Repair Technician</h4>
+                </li>
+			</ul>
+		</div>
+	</section>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel();
+		});
+	</script>
+</body>
+</html>
