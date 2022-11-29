@@ -20,6 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .contenedorbotones{
     margin-top: 10px;
 }
@@ -168,5 +169,12 @@ body{
     #slider1 .overview li{
         width: 260px;
         height: 490px;
+    }
+
+    #slider1 {
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
